@@ -190,8 +190,8 @@ class Person {
     }
 }
 
-let hoidanit = new Person("123", "Hoi Dan IT", " Eric");
-console.log(">> check class: ", hoidanit.getFullName())
+let result = new Person("123", "Nguyen Van", " A");
+console.log(">> check class: ", result.getFullName())
 
 
 //lesson 32
@@ -313,8 +313,8 @@ const sum3 = (x: number, y: number): number => {
     return x + y;
 }
 
-// function sum4(x: number, y: number): number {
-//     return x + y;
+// function sum3(x: number, y: number) {
+//     return 'abc';
 // }
 
 console.log(">> check sum3 = ", sum3(1, 10))
